@@ -1,0 +1,53 @@
+{
+  "name": "space-tourism-website",
+  "version": "1.0.0",
+  "description": "Space tourism multi-page website",
+  "main": "app.js",
+  "scripts": {
+    "postcss:home:watch": "postcss src/styles/home/style.css -d dist/styles --watch",
+    "postcss:tech:watch": "postcss src/styles/technology/style.css -d dist/styles --watch",
+    "postcss:crew:watch": "postcss src/styles/crew/style.css -d dist/styles --watch",
+    "postcss:dest:watch": "postcss src/styles/destination/style.css -d dist/styles --watch",
+    "webpack:build": "webpack --mode=production",
+    "webpack": "webpack --mode=development",
+    "webpack:dev": "webpack --mode=development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Israeltheminer/Space-Tourism.git"
+  },
+  "keywords": [],
+  "author": "Israel Iyanda",
+  "license": "ISC",
+  "engines": {
+    "node": "18.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Israeltheminer/Space-Tourism/issues"
+  },
+  "homepage": "https://github.com/Israeltheminer/Space-Tourism#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "cssnano": "^5.1.10",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.1.0",
+    "postcss-import-ext-glob": "^2.0.1",
+    "postcss-nesting": "^10.1.7",
+    "postcss-preset-env": "^7.7.1",
+    "tailwindcss": "^3.0.24",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.4.0"
+  }
+}
