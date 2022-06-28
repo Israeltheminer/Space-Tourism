@@ -1,0 +1,76 @@
+<nav class="ml-[3.5rem] mt-[2.5rem] h-[5.5rem] md:m-0 sm:pt-[2.5rem]">
+	<div class="flex justify-between align-middle">
+		<div class="flex">
+			<div class="ml-12 sm:ml-[2rem]"></div>
+			<div class="nav-icon flex items-center">
+				<div class="h-[48px]">
+					<img loading="lazy" src="../../dist/assets/shared/logo.svg">
+				</div>
+			</div>
+		</div>
+		<div class="hidden sm:grid">
+			<div id="showSidebar" class="my-auto mr-12 sm:mr-[2rem]">
+				<img class="h-[24px] w-[28px]" src="../../dist/assets/shared/icon-hamburger.svg">
+			</div>
+		</div>
+		<div class="flex sm:hidden">
+			<div class="nav-line-box w-[20rem] h-[1px] bg-[rgb(151,151,151)] my-auto relative z-10 left-10 lg:hidden">
+				<div class="nav-line">
+				</div>
+			</div>
+			<div class="flex justify-around pl-[4rem] pr-[5rem] h-[5.5rem] bg-[rgb(151,151,151)]/50 items-center text-[18px] md:pr-0">
+				<div id="homeLink" class="hover:border-[rgb(151,151,151)] hover:border-b-4 h-[100%] flex items-center justify-center gap-8">
+					<a href="/">
+						<span class="link-num mx-3 md:mx-0 md:hidden">00</span><span class="link-name text-white/80">HOME</span>
+					</a>
+				</div>
+				<div class="mx-7 md:mx-5"></div>
+				<div id="destinationLink" class="hover:border-[rgb(151,151,151)] hover:border-b-4 h-[100%] flex items-center">
+					<a href="/destination">
+						<span class="link-num mx-3 md:mx-0 md:hidden">01</span><span class="link-name text-white/80">DESTINATION</span>
+					</a>
+				</div>
+				<div class="mx-7 md:mx-5"></div>
+				<div id="crewLink" class="hover:border-[rgb(151,151,151)] hover:border-b-4 h-[100%] flex items-center">
+					<a href="/crew">
+						<span class="link-num mx-3 md:mx-0 md:hidden">02</span><span class="link-name text-white/80">CREW</span>
+					</a>
+				</div>
+				<div class="mx-7 md:mx-5"></div>
+				<div id="technologyLink" class="hover:border-[rgb(151,151,151)] hover:border-b-4 h-[100%] flex items-center">
+					<a href="/technology">
+						<span class="link-num mx-3 md:mx-0 md:hidden">03</span><span class="link-name text-white/80">TECHNOLOGY</span>
+					</a>
+				</div>
+				<div class="mx-5 sm:mx-[2rem]"></div>
+			</div>
+		</div>
+	</div>
+</nav>
+<div id="side_bar" class="backdrop-blur-xl bg-[rgb(151,151,151)]/30 absolute h-[100vh] w-[65%] right-0 top-0 hide-item z-10">
+	<div class="my-12 flex justify-end">
+		<div class="mr-8 cursor-pointer">
+			<img id="hideSidebar" class="w-[24px] h-[24px]" src="../../dist/assets/shared/icon-close.svg">
+		</div>
+	</div>
+	<div class="my-6 ml-6">
+		<a href="/">
+			<span class="text-2xl link-num mx-3">00</span><span class="text-2xl link-name text-white/80">HOME</span>
+		</a>
+	</div>
+	<div class="my-6 ml-6">
+		<a href="/destination">
+			<span class="text-2xl link-num mx-3">01</span><span class="text-2xl link-name text-white/80">DESTINATION</span>
+		</a>
+	</div>
+	<div class="my-6 ml-6">
+		<a href="/crew">
+			<span class="text-2xl link-num mx-3">02</span><span class="text-2xl link-name text-white/80">CREW</span>
+		</a>
+	</div>
+	<div class="my-6 ml-6">
+		<a href="/technology">
+			<span class="text-2xl link-num mx-3">03</span><span class="text-2xl link-name text-white/80">TECHNOLOGY</span>
+		</a>
+	</div>
+</div>
