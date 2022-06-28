@@ -1,0 +1,32 @@
+body{
+   background-image: url("../assets/destination/background-destination-desktop.jpg");
+   background-repeat: no-repeat;
+   background-size: 100vw 100%;
+   color: #FFFFFF;
+}
+
+.link-name{
+   cursor: pointer;
+}
+
+.active-link{
+   border-color: #ffffff;
+   border-bottom: 4px;
+   border-style: solid;
+}
+
+.hide-item{
+   display: none;
+}
+
+@media (max-width: 885px) {
+   body{
+      background-image: url("../assets/destination/background-destination-tablet.jpg");
+   }
+}
+
+@media (max-width: 425px) {
+   body{
+      background-image: url("../assets/destination/background-destination-mobile.jpg");
+   }
+}

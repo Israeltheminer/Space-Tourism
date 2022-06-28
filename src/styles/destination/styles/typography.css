@@ -1,0 +1,36 @@
+h1{
+   font-family: 'Bellefair', serif;
+   font-size: 100px;
+}
+
+h2{
+   font-family: 'Bellefair', serif;
+   font-size: 90px;
+}
+
+h3{
+   font-family: 'Bellefair', serif;
+   font-size: 50px;
+}
+
+h4{
+   font-family: 'Bellefair', serif;
+   font-size: 30px;
+}
+
+h5{
+   font-family: 'Barlow Condensed', sans-serif;
+   font-size: 26px;
+}
+
+span{
+   font-family: 'Barlow Condensed', sans-serif;
+}
+
+.barlow{
+   font-family: 'Barlow Condensed', sans-serif;
+}
+
+.link-num{
+   font-weight: 600;
+}
