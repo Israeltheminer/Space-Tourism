@@ -4,10 +4,11 @@
   "description": "Space tourism multi-page website",
   "main": "app.js",
   "scripts": {
-    "postcss:home:watch": "postcss src/styles/home/style.css -d dist/styles --watch",
-    "postcss:tech:watch": "postcss src/styles/technology/style.css -d dist/styles --watch",
-    "postcss:crew:watch": "postcss src/styles/crew/style.css -d dist/styles --watch",
-    "postcss:dest:watch": "postcss src/styles/destination/style.css -d dist/styles --watch",
+    "postcss:home:watch": "postcss src/styles/home/home.css -d dist/styles --watch",
+    "postcss:tech:watch": "postcss src/styles/technology/technology.css -d dist/styles --watch",
+    "postcss:crew:watch": "postcss src/styles/crew/crew.css -d dist/styles --watch",
+    "postcss:dest:watch": "postcss src/styles/destination/destination.css -d dist/styles --watch",
+    "postcss:general:watch": "postcss src/styles/general/general.css -d dist/styles --watch",
     "webpack:build": "webpack --mode=production",
     "webpack": "webpack --mode=development",
     "webpack:dev": "webpack --mode=development --watch"
@@ -40,6 +41,7 @@
     "webpack-cli": "^4.9.2"
   },
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^4.1.3",
     "body-parser": "^1.20.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",

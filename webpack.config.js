@@ -5,7 +5,7 @@ module.exports = {
     destination: "./src/scripts/destination.js",
     crew: "./src/scripts/crew.js",
     home: "./src/scripts/home.js",
-    tech: "./src/scripts/tech.js"
+    technology: "./src/scripts/technology.js"
   },
   output: {
     filename: "[name].js",
